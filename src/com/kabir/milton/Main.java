@@ -13,26 +13,28 @@ public class Main {
             System.out.println("This number is not natural!");
         }
         else{
+            boolean ev=false,od=false,buz=false,dk=false;
             if(n%2==0){
-                System.out.println("This number is Even.");
+                ev=true;
             }
             else{
-                System.out.println("This number is Odd.");
+                od=true;
             }
-            if(n%7!=0&&n%10!=7){
-                System.out.println("It is not a Buzz number.\nExplanation:\n"+n+" is neither divisible by 7 nor does it end with 7.");
-
+            if(n%7==0||n%10==7){
+                buz=true;
             }
-            else if(n%7==0&&n%10==7){
-                System.out.println("It is a Buzz number.\nExplanation:\n"+n+" is divisible by 7 and ends with 7.");
+            int k=n;
+            while(n>0){
+                if(n%10==0){
+                    dk=true;
+                }
+                n/=10;
             }
-            else if(n%7==0){
-                System.out.println("It is a Buzz number.\nExplanation:\n"+n+" is divisible by 7");
-            }
-            else{
-                System.out.println("It is a Buzz number.\nExplanation:\n"+n+" ends with 7.");
-            }
-
+            System.out.println("Properties of "+k);
+            System.out.println("even: "+ev);
+            System.out.println("odd: "+od);
+            System.out.println("buzz: "+buz);
+            System.out.println("duck: "+dk);
         }
     }
 }
