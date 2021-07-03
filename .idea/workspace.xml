@@ -11743,6 +11743,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -11781,7 +11784,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625280305698</updated>
       <workItem from="1625280309282" duration="65000" />
-      <workItem from="1625281372234" duration="1247000" />
+      <workItem from="1625281372234" duration="4840000" />
     </task>
     <servers />
   </component>
@@ -11812,6 +11815,26 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state width="1234" height="270" key="GridCell.Tab.0.bottom" timestamp="1625295195156">
+      <screen x="1280" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1234" height="270" key="GridCell.Tab.0.bottom/65.24.1215.1000/1280.0.1280.1024@1280.0.1280.1024" timestamp="1625295195156" />
+    <state width="1234" height="270" key="GridCell.Tab.0.center" timestamp="1625295195156">
+      <screen x="1280" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1234" height="270" key="GridCell.Tab.0.center/65.24.1215.1000/1280.0.1280.1024@1280.0.1280.1024" timestamp="1625295195156" />
+    <state width="1234" height="270" key="GridCell.Tab.0.left" timestamp="1625295195156">
+      <screen x="1280" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1234" height="270" key="GridCell.Tab.0.left/65.24.1215.1000/1280.0.1280.1024@1280.0.1280.1024" timestamp="1625295195156" />
+    <state width="1234" height="270" key="GridCell.Tab.0.right" timestamp="1625295195156">
+      <screen x="1280" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1234" height="270" key="GridCell.Tab.0.right/65.24.1215.1000/1280.0.1280.1024@1280.0.1280.1024" timestamp="1625295195156" />
+    <state x="1408" y="88" key="SettingsEditor" timestamp="1625283813489">
+      <screen x="1280" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1408" y="88" key="SettingsEditor/65.24.1215.1000/1280.0.1280.1024@1280.0.1280.1024" timestamp="1625283813489" />
     <state x="1792" y="425" key="VCS.EditChangelistDialog" timestamp="1625281577990">
       <screen x="1280" y="0" width="1280" height="1024" />
     </state>
