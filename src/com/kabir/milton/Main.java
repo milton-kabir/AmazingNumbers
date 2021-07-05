@@ -101,14 +101,12 @@ public class Main {
     }
 
     static boolean isGapful(long number) {
-        //number is gapful when has >3 digits and concat of 1st and last digit is divider of number
         char[] ch = Long.toString(number).toCharArray();
         int gapNumber = Character.getNumericValue(ch[0]) * 10 + Character.getNumericValue(ch[ch.length - 1]);
         return ch.length > 2 && number % gapNumber == 0;
     }
 
     static boolean isSpy(long number) {
-        //number is spy if sum of digits == equation of digits
         String numStr = Long.toString(number);
         int sum = 0;
         int equation = 1;
@@ -203,10 +201,6 @@ public class Main {
     }
 
     static void printSearchNumberSequenceInfo(long number, int amount, String... keywords) {
-
-        //property validation
-
-
 //        System.out.println("HEREEEEEE");
         StringBuilder notExistingKeywords = new StringBuilder();
         for (int i = 0; i < keywords.length; i++) {
@@ -216,7 +210,6 @@ public class Main {
                 notExistingKeywords.append(keywords[i]).append(" ");
             }
         }
-
         if (notExistingKeywords.length() != 0) { //found not existing keywords
             printWrongPropertyInfo(notExistingKeywords.toString().split(" "));
             return;
